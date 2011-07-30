@@ -19,6 +19,10 @@ function BullhornBuildRoute(&$query) {
         $segments[] = $query['task'];
         unset($query['task']);
     }
+    if (isset($query['Itemid'])) {
+        $segments[] = $query['Itemid'];
+        unset($query['Itemid']);
+    }
     // page/jobID
     if (isset($query['jobId'])) {
         $segments[] = $query['jobId'];
