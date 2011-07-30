@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+        name="bullhorn"
+        label="Component"
+        description="COM_BULLHORN_CONFIGURATION_HELP">
+        <field
+            name="username" type="text"
+            label="User Name:"
+            description="A valid Bullhorn user account is required to access the API"
+            size="36"
+        />
+        <field
+            name="password" type="password"
+            label="Password:"
+            description="A valid Bullhorn user account is required to access the API"
+            size="36"
+        />
+        <field
+            name="api_key" type="text"
+            label="API Key:"
+            description="This key should be available in your Bullhorn Administration page"
+            size="36"
+        />
+        <field
+            name="corporation_id" type="text"
+            label="Internal Corporation ID:"
+            description="Filter results to this corporation only"
+            size="8"
+        />
+    </fieldset>
+</config>
