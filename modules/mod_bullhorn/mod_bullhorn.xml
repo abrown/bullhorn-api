@@ -9,7 +9,7 @@
     <author>Andrew Brown</author>
     <copyright>Copyright (C)2011 Andrew Brown. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <authorEmail>andrew@casabrown.com</authorEmail>
+    <authorEmail>...</authorEmail>
     <authorUrl>http://www.casabrown.com</authorUrl>
     <version>1.6.0</version>
     <description>Simple module to display recent jobs posted in the Bullhorn API</description>
